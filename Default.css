@@ -1,0 +1,63 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg1{
+    width: 2000px;
+    height: 300px;
+    object-fit: cover;
+    padding-bottom: 10px;
+    opacity: 0.4;
+}
+body{
+    background-color: rgb(212, 212, 221);
+}
+.title{
+    position: absolute;
+    text-align: center;
+    top: 125px;
+    left: 325px;
+    font-size: 50px;
+}
+.abc{
+    font-size:30px ;
+}
+.discription{
+    width:200px;
+    height: 300px;
+    vertical-align: top;
+}
+
+.name{
+    font-size:30px;
+    text-align: left;
+    display: grid;
+    height: 33px;
+    width:100%;
+    margin-bottom: 34px;
+}
+.button{
+    display: inline-block;
+    vertical-align: top;    
+
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+    opacity: 0.9;
+}
+button:active{
+    opacity:1;
+    cursor:pointer;
+    background-color: red;
+
+}
+.courses{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    width:100%;
+    column-gap: 20px;
+    }
+   
